@@ -12,7 +12,7 @@ How to Use:
 2. The second screen is the main page with a toolbar having to inputs and a logout button. Enter valid urls in the inputs to view their content in the respective frames.
 3. Click logout button to logout and return to login page.
 4. On mobile devices the inputs and the logout button will be visible on clicking the down arrow on the toolbar and will work in the same way.
-Note:Since urls are involved in this application, please use valid urls (beginning with http:// or https://) to view their content. Some sample urls are given below
+Note: Since url embedding is involved in this application, please use valid urls (beginning with http:// or https:// and having embed permissions on them) to view their content. Some sample urls are given below
 
 URL1:https://www.youtube.com/embed/yRB0xbKDebo
 URL2:https://example.com
