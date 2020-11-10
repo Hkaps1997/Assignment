@@ -1,0 +1,30 @@
+.Button {
+  border-radius: 5px;
+  font-family: "Benton Sans", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+  white-space: nowrap;
+  padding: 0.375em 22px 0.1875em;
+  text-decoration: none;
+  color: #222;
+  background-color: #fff;
+  border: 2px solid#222;
+  font-size: 0.875rem;
+}
+.Button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+.Toggle {
+  display: none;
+}
+
+@media (max-width: 749px) {
+  .DesktopOnly {
+    display: none;
+  }
+  .Toggle {
+    display: block;
+  }
+}
